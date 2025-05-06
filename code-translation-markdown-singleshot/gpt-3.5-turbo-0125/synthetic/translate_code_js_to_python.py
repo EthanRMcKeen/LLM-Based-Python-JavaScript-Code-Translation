@@ -11,7 +11,7 @@ ds_python = load_dataset("THUDM/humaneval-x", "python")
 
 #load_dotenv(dotenv_path="../../.env")
 #API_KEY = os.getenv("OPENAI_API_KEY")
-API_KEY = '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'
+API_KEY = '<insert key>'
 client = OpenAI(api_key=API_KEY)
 
 def random_exclude(n):    
